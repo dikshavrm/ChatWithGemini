@@ -4,7 +4,7 @@ from google import genai
 
 app = FastAPI()  # <-- must exist at module top level with this exact name
 
-client = genai.Client(api_key="AIzaSyBLAJQjUdII3lCu8rVayPPq7K7F-FkihIk")
+client = genai.Client(api_key="YOUR_KEY")
 
 @app.get("/")
 def read_root():
